@@ -75,19 +75,19 @@ section.wave: before{
     0%{
         background-position: 0 px;
         }   100%{
-                background-position: 1360px;
-            }
+            background-position: 1360px;
         }
+    }
 
-@keyframes animate-reverse{
-    0%{
-        background-position: 1360px;
-        }   100%{
+    @keyframes animate-reverse{
+        0%{
+            background-position: 1360px;
+            }   100%{
                 background-position: 0 px;
             }
         }
 
- img{
+        img{
             width:100%;
             height:100%;
         }
@@ -124,4 +124,51 @@ section.wave: before{
             margin-left: 30%;
             margin-right:auto;
             z-index: 2;
+        }
+
+        .jar{
+            display:inline-block;
+            position: absolute;
+            background: transparent;
+            width:auto;
+            max-height: 200%; 
+            margin-left: 23%;
+            margin-right:auto;
+            z-index: 2;
+        }
+
+        .gold{
+            display:inline-block;
+            position: absolute;
+            background: transparent;
+            max-width:30%;
+            margin-top:15%;
+            height:auto; 
+            margin-left: 34.5%;
+            margin-right:auto;
+            z-index: 1;
+            opacity:0.8;
+        }
+
+        .homeless{
+            display:inline-block;
+            position: absolute;
+            background: transparent;
+            max-width:30%;
+            margin-top:32%;
+            height:auto; 
+            margin-left: 35%;
+            margin-right:auto;
+            z-index: 1;
+            opacity:0.8;
+        }
+
+        .golden{
+            display:inline-block;
+            position: absolute;
+            background: transparent;
+            width:100%;
+            height: 100%; 
+            z-index: 1;
+            opacity:0.3;
         }

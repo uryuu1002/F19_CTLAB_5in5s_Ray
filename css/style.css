@@ -129,9 +129,8 @@ section{
             display:inline-block;
             position: absolute;
             background: transparent;
-            width:55%;
-            height:100%;  
-            margin-left: 22.5%;      
+            width:100%;
+            height:auto;        
         }
 
         .lightbulb{
